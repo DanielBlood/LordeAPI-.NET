@@ -15,7 +15,7 @@ namespace LordeAPI
         //The API Endpoint, Don't change this unless we moved the API
         public string API_Key { get; set; }
         //Your API Key, you need to register it
-        public string Client { get; set; }
+        public string Client = "C# Client";
         public object SendRequest(string Message, bool ReplaceNewLine = false, string Username = "Unknown")
         {
             //First check for Empty settings
@@ -24,7 +24,7 @@ namespace LordeAPI
             if (Message == null)
                 throw new Exception("Missing argument: Message");
             if (Client == null)
-                Client = "VB.Net Client";
+                Client = "C# Client";
             if (Username == null)
                 Username = "Unknown";
 
@@ -69,7 +69,7 @@ namespace LordeAPI
                     //Finally return the response from Lorde
                     if (ReplaceNewLine == true)
                     {
-                        return G2.Substring(0, G2.Length - 1).Replace("\\n", System.Environment.NewLine);
+                        return G2.Substring(0, G2.Length - 1).Replace("\n", System.Environment.NewLine);
                     }
                     else
                     {
