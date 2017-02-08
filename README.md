@@ -1,4 +1,4 @@
-﻿# LordeA .NET
+﻿# LordeAPI .NET
 
 
 A simple .NET Wrapper for LordeAI
