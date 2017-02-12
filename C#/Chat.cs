@@ -11,7 +11,7 @@ namespace LordeAPI
         //Github: http://github.com/danielblood
         //Version v1.0 First public release
 
-        public string API_Endpoint = "https://lorde.material-cloud.net/api.php";
+        public string API_Endpoint = "https://system.kpwn.me/api.php";
         //The API Endpoint, Don't change this unless we moved the API
         public string API_Key { get; set; }
         //Your API Key, you need to register it
