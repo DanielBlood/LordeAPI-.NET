@@ -3,7 +3,7 @@
     'Github: http://github.com/danielblood
     'Version v1.0 First public release
 
-    Public Property API_Endpoint As String = "https://lorde.material-cloud.net/api.php" 'The API Endpoint, Don't change this unless we moved the API
+    Public Property API_Endpoint As String = "https://system.kpwn.me/api.php" 'The API Endpoint, Don't change this unless we moved the API
     Public Property API_Key As String 'Your API Key, you need to register it
     Public Property Client As String = "VB.Net Client"
     Public Function SendRequest(ByVal Message As String, Optional ByVal ReplaceNewLine As Boolean = False, Optional ByVal Username As String = "Unknown")
