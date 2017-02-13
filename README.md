@@ -27,7 +27,7 @@ End Module
 ```
 ### C# Example
 ```csharp
-static class LordeVB
+static class LordeCSharp
 {
     public static LordeAPI.Chat API = new LordeAPI.Chat();
     public static void Main()
